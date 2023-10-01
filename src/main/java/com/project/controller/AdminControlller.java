@@ -20,7 +20,7 @@ import com.project.service.ProblemServiceImpl;
 
 @RestController
 @RequestMapping("/admin/problems")
-public class ProblemsControlller {
+public class AdminControlller {
 
 	@Autowired
 	ProblemServiceImpl impl;
